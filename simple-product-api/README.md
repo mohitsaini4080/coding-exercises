@@ -10,10 +10,11 @@ JSON response.
 Candidates should enhance the API by implementing the following functionality:
 
 1. Add a resource to save a new product.
+   1. It should not be possible to insert a product with an existing ID.
 2. Add a resource to query/filter products by id.
 3. Add a resource to query/filter products by type.
 4. Add a resource to remove a specific product.
-5. Add request validation (Bonus Objective).
+5. Add request validation to all resources.
 
 ## Tips
 
